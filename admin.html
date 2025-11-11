@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="顺通国际物流管理员登录入口">
+    <title>顺通国际物流管理员登录</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo.jpg" alt="顺通国际物流" height="35" class="brand-logo">
+                <span class="brand-text">顺通国际物流</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">关于我们</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#services">服务介绍</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="admin-page">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="admin-card">
+                        <div class="admin-header">
+                            <h1>管理员登录</h1>
+                            <p>内部专用通道</p>
+                        </div>
+                        <form id="adminLoginForm" class="admin-form" novalidate>
+                            <div class="form-group">
+                                <label for="adminUsername" class="form-label">用户名</label>
+                                <div class="input-wrapper">
+                                    <span class="input-icon">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <input type="text" id="adminUsername" class="form-control" placeholder="请输入用户名" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="adminPassword" class="form-label">密码</label>
+                                <div class="input-wrapper">
+                                    <span class="input-icon">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                    <input type="password" id="adminPassword" class="form-control" placeholder="请输入密码" required>
+                                </div>
+                            </div>
+                            <div class="form-options">
+                                <label class="remember-me">
+                                    <input type="checkbox" id="adminRemember">
+                                    <span>记住账号</span>
+                                </label>
+                                <a href="index.html#contact" class="forget-link">忘记密码？联系客服协助</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 admin-submit">
+                                <i class="fas fa-sign-in-alt me-2"></i>登录系统
+                            </button>
+                            <div class="login-feedback" id="adminLoginFeedback" role="status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="admin-footer text-center">
+        <p class="mb-0">© 2025 顺通国际物流 · 管理后台入口</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

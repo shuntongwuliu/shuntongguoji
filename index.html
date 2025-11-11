@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 网页基本设置 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="顺通国际物流 - 专业东南亚运输服务，客户的需求都能满足">
+    <meta name="keywords" content="顺通运输,国际运输,东南亚运输,物流服务,海运,空运">
+    <title>顺通国际物流 - 专业东南亚运输服务</title>
+    
+    <!-- 引入Bootstrap CSS框架，用于快速构建响应式网站 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入Font Awesome图标库，提供丰富的图标选择 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入自定义样式文件 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏区域 -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- 公司Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo.jpg" alt="顺通国际物流" height="35" class="brand-logo">
+                <span class="brand-text">顺通国际物流</span>
+            </a>
+            
+            <!-- 移动端折叠按钮 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- 导航菜单 -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">服务介绍</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#routes">运输路线</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">最新动态</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">联系我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#realtime">实时动态</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">管理员登录</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅区域 -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-6">
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                顺通国际物流
+                            </h1>
+                            <p class="hero-subtitle">
+                                专业东南亚运输服务 · 客户的需求都能满足
+                            </p>
+                            <p class="hero-description">
+                                我们专注于东南亚地区的国际运输服务，提供海运、空运、陆运等全方位物流解决方案。
+                                凭借专业的团队和丰富的经验，为您的货物运输保驾护航。
+                            </p>
+                            <div class="hero-buttons">
+                                <a href="#services" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-shipping-fast me-2"></i>了解服务
+                                </a>
+                                <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                    <i class="fas fa-phone me-2"></i>立即咨询
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-visual">
+                            <div class="floating-elements">
+                                <div class="floating-icon ship">
+                                    <i class="fas fa-ship"></i>
+                                </div>
+                                <div class="floating-icon plane">
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <div class="floating-icon truck">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div class="floating-icon globe">
+                                    <i class="fas fa-globe-asia"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们区域 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">关于顺通</h2>
+                        <p class="section-subtitle">稳扎稳打 · 专注东南亚跨境物流15年</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5 align-items-center about-intro">
+                <div class="col-lg-6">
+                    <div class="about-card">
+                        <h3>我们是谁？</h3>
+                        <p>顺通国际物流是一家深耕东南亚市场的综合物流企业，拥有专业团队、强大仓储能力与多式联运资源，为客户提供端到端的跨境运输解决方案。</p>
+                        <ul class="about-highlights">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <strong>15年行业经验</strong>
+                                    <span>服务超过10000家跨境客户，积累丰富的货运管理经验</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-network-wired"></i>
+                                <div>
+                                    <strong>多国仓配网络</strong>
+                                    <span>覆盖泰国、越南、老挝、缅甸、马来西亚、新加坡等核心国家</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <strong>标准化安全保障</strong>
+                                    <span>全流程保险、严选伙伴与可视化监管，保障每一票货物安全抵达</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-timeline">
+                        <h4>成长历程</h4>
+                        <div class="timeline-item">
+                            <div class="timeline-point">
+                                <span>2010</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h5>顺通成立</h5>
+                                <p>以昆明为起点，专注云南至老挝的跨境陆运服务。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-point">
+                                <span>2016</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h5>扩充东南亚网络</h5>
+                                <p>陆续开通泰国、越南、柬埔寨等线路，建立中转仓储。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-point">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h5>数智化升级</h5>
+                                <p>上线运输管理系统（TMS），实现全程可视化追踪。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-point">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h5>战略合作升级</h5>
+                                <p>携手国际物流巨头，打造海陆空一体的综合运力。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 about-summary">
+                <div class="col-lg-5">
+                    <div class="about-company-card">
+                        <div class="about-logo-header">
+                            <div class="about-logo">
+                                <img src="images/logo/logo.jpg" alt="顺通国际物流" class="logo-img">
+                            </div>
+                            <div class="about-logo-text">
+                                <h3>顺通国际物流</h3>
+                                <p>专业东南亚运输服务 · 客户的需求都能满足</p>
+                            </div>
+                        </div>
+                        <p class="about-company-text">
+                            以昆明为枢纽，顺通打造覆盖东南亚的仓配网络，为制造、跨境电商、工程设备等行业提供灵活可靠的供应链支持。
+                        </p>
+                        <ul class="about-company-badges">
+                            <li>
+                                <i class="fas fa-route"></i>
+                                <span>海陆空多式联运方案定制</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-warehouse"></i>
+                                <span>境内外仓储与分拨节点协同</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-headset"></i>
+                                <span>专属客服团队，实时跟进货况</span>
+                            </li>
+                        </ul>
+                        <div class="about-stats-grid">
+                            <div class="about-stat">
+                                <span class="about-stat-number">15+</span>
+                                <span class="about-stat-label">年跨境物流经验</span>
+                            </div>
+                            <div class="about-stat">
+                                <span class="about-stat-number">10000+</span>
+                                <span class="about-stat-label">服务企业客户</span>
+                            </div>
+                            <div class="about-stat">
+                                <span class="about-stat-number">120+</span>
+                                <span class="about-stat-label">覆盖城市与节点</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-credentials-card">
+                        <div class="credentials-group">
+                            <h4>权威认证</h4>
+                            <div class="credentials-grid">
+                                <div class="credential-item">
+                                    <i class="fas fa-certificate"></i>
+                                    <div>
+                                        <span class="credential-name">ISO 9001</span>
+                                        <span class="credential-desc">质量管理体系</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-globe-americas"></i>
+                                    <div>
+                                        <span class="credential-name">IATA</span>
+                                        <span class="credential-desc">国际航空运输协会</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <div>
+                                        <span class="credential-name">C-TPAT</span>
+                                        <span class="credential-desc">海关贸易伙伴反恐计划</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-handshake"></i>
+                                    <div>
+                                        <span class="credential-name">Lloyd's</span>
+                                        <span class="credential-desc">劳合社保险认证</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-truck"></i>
+                                    <div>
+                                        <span class="credential-name">CILT</span>
+                                        <span class="credential-desc">国际物流与运输学会</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-lock"></i>
+                                    <div>
+                                        <span class="credential-name">TAPA</span>
+                                        <span class="credential-desc">运输资产保护协会</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-leaf"></i>
+                                    <div>
+                                        <span class="credential-name">ISO 14001</span>
+                                        <span class="credential-desc">环境管理体系</span>
+                                    </div>
+                                </div>
+                                <div class="credential-item">
+                                    <i class="fas fa-user-shield"></i>
+                                    <div>
+                                        <span class="credential-name">OHSAS 18001</span>
+                                        <span class="credential-desc">职业健康安全管理</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners-group">
+                            <h4>战略合作伙伴</h4>
+                            <div class="partners-pills">
+                                <span class="partner-pill"><i class="fab fa-fedex"></i>FedEx</span>
+                                <span class="partner-pill"><i class="fas fa-plane"></i>DHL</span>
+                                <span class="partner-pill"><i class="fas fa-ship"></i>Maersk</span>
+                                <span class="partner-pill"><i class="fas fa-truck"></i>UPS</span>
+                                <span class="partner-pill"><i class="fas fa-globe-asia"></i>Kuehne+Nagel</span>
+                                <span class="partner-pill"><i class="fas fa-box"></i>DB Schenker</span>
+                                <span class="partner-pill"><i class="fas fa-shipping-fast"></i>Expeditors</span>
+                                <span class="partner-pill"><i class="fas fa-warehouse"></i>CEVA Logistics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心优势区域 -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">我们的核心优势</h2>
+                        <p class="section-subtitle">专业、可靠、高效的运输服务</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>东南亚专线</h3>
+                            <p>专注泰国、越南、马来西亚、新加坡、印度尼西亚等东南亚国家，提供专业运输服务</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>快速响应</h3>
+                            <p>24小时在线服务，快速响应客户需求，提供实时物流跟踪和状态更新</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>安全保障</h3>
+                            <p>全程货物保险，专业包装，确保货物安全到达目的地</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务介绍区域 -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">专业服务</h2>
+                        <p class="section-subtitle">全方位的国际运输解决方案</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>海运服务</h3>
+                            <p>提供整柜、拼箱海运服务，覆盖东南亚主要港口，价格优惠，时效稳定</p>
+                            <ul class="service-features">
+                                <li>整柜运输 (FCL)</li>
+                                <li>拼箱运输 (LCL)</li>
+                                <li>门到门服务</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>空运服务</h3>
+                            <p>快速空运服务，适合高价值、时效性强的货物，提供全程跟踪服务</p>
+                            <ul class="service-features">
+                                <li>国际空运</li>
+                                <li>快速通关</li>
+                                <li>实时跟踪</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>陆运服务</h3>
+                            <p>东南亚地区陆路运输网络，提供跨境运输和本地配送服务</p>
+                            <ul class="service-features">
+                                <li>跨境运输</li>
+                                <li>本地配送</li>
+                                <li>仓储服务</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 运输路线区域 -->
+    <section id="routes" class="routes-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">运输路线</h2>
+                        <p class="section-subtitle">覆盖东南亚主要国家和地区</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="route-item">
+                        <div class="route-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>泰国</h4>
+                        <p>曼谷、清迈、普吉岛等主要城市</p>
+                        <div class="route-time">3-5天</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="route-item">
+                        <div class="route-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>越南</h4>
+                        <p>河内、胡志明市、海防等主要城市</p>
+                        <div class="route-time">4-6天</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="route-item">
+                        <div class="route-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>马来西亚</h4>
+                        <p>吉隆坡、槟城、马六甲等主要城市</p>
+                        <div class="route-time">3-5天</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="route-item">
+                        <div class="route-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>新加坡</h4>
+                        <p>新加坡全境快速配送</p>
+                        <div class="route-time">2-3天</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新动态区域 -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">最新动态</h2>
+                        <p class="section-subtitle">了解顺通运输的最新资讯和服务动态</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                                 <div class="col-lg-4">
+                     <div class="news-item">
+                         <div class="news-image">
+                             <img src="images/news/news1.jpg" alt="昆明到邦康线路" class="img-fluid">
+                         </div>
+                         <div class="news-content">
+                             <div class="news-date">
+                                 <i class="fas fa-calendar-alt"></i> 2025年8月5日
+                             </div>
+                             <h4>昆明到邦康线路全面开启</h4>
+                             <p>顺通运输正式开启昆明到邦康的陆路运输线路，为客户提供更便捷的跨境物流服务。</p>
+                             <div class="news-meta">
+                                 <span class="news-tag">陆路运输</span>
+                                 <span class="news-read">阅读更多</span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                <div class="col-lg-4">
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="images/news/news2.jpg" alt="服务升级" class="img-fluid">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-date">
+                                <i class="fas fa-calendar-alt"></i> 2024年12月10日
+                            </div>
+                            <h4>推出24小时在线客服服务</h4>
+                            <p>为了更好地服务客户，顺通运输推出24小时在线客服系统，客户可以随时咨询运输相关问题。</p>
+                            <div class="news-meta">
+                                <span class="news-tag">服务升级</span>
+                                <span class="news-read">阅读更多</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="news-item">
+                        <div class="news-image">
+                            <img src="images/news/news3.jpg" alt="合作伙伴" class="img-fluid">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-date">
+                                <i class="fas fa-calendar-alt"></i> 2024年12月5日
+                            </div>
+                            <h4>与越南知名物流公司达成战略合作</h4>
+                            <p>顺通运输与越南领先的物流公司签署战略合作协议，进一步扩大在东南亚地区的服务网络。</p>
+                            <div class="news-meta">
+                                <span class="news-tag">战略合作</span>
+                                <span class="news-read">阅读更多</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们区域 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">联系我们</h2>
+                        <p class="section-subtitle">随时为您提供专业的运输服务</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <!-- 左侧：公司信息 -->
+                
+                                <h4>官方联络渠道</h4>
+                                <p>请选择合适的方式与顺通运输保持沟通，我们将第一时间响应您的业务需求。</p>
+                            </div>
+                            <div class="channel-grid">
+                                <article class="channel-card">
+                                    <div class="channel-icon-wrap">
+                                        <i class="fas fa-user-tie"></i>
+                                    </div>
+                                    <div class="channel-content">
+                                        <span class="channel-badge">人工客服</span>
+                                        <h5>顺通客服 · 对接负责人</h5>
+                                        <p>提供一对一运输方案评估、报价核算与跨境流程指导。</p>
+                                        <a class="channel-handle" href="https://t.me/stong8989" target="_blank" rel="noopener noreferrer">@stong8989</a>
+                                    </div>
+                                </article>
+                                <article class="channel-card">
+                                    <div class="channel-icon-wrap">
+                                        <i class="fas fa-robot"></i>
+                                    </div>
+                                    <div class="channel-content">
+                                        <span class="channel-badge">智能助手</span>
+                                        <h5>双向聊天机器人</h5>
+                                        <p>7×24 小时自动回复，实时推送运输进度与常见问题解答。</p>
+                                        <a class="channel-handle" href="https://t.me/zousiaa_bot" target="_blank" rel="noopener noreferrer">@zousiaa_bot</a>
+                                    </div>
+                                </article>
+                                <article class="channel-card">
+                                    <div class="channel-icon-wrap">
+                                        <i class="fas fa-bullhorn"></i>
+                                    </div>
+                                    <div class="channel-content">
+                                        <span class="channel-badge">资讯公告</span>
+                                        <h5>官方资讯频道</h5>
+                                        <p>第一时间了解业务公告、线路调整与优惠活动，掌握最新动态。</p>
+                                        <a class="channel-handle" href="https://t.me/shuntongzousi" target="_blank" rel="noopener noreferrer">@shuntongzousi</a>
+                                    </div>
+                                </article>
+                                <article class="channel-card">
+                                    <div class="channel-icon-wrap">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="channel-content">
+                                        <span class="channel-badge">企业官网</span>
+                                        <h5>顺通运输官方网站</h5>
+                                        <p>浏览服务介绍、线路覆盖、客户案例与合作流程说明。</p>
+                                        <a class="channel-handle" href="https://shuntongwuliu.github.io/shuntongguanwang/" target="_blank" rel="noopener noreferrer" title="https://shuntongwuliu.github.io/shuntongguanwang/">访问官网</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-note">
+                            <div class="note-item">
+                                <i class="fas fa-info-circle"></i>
+                                <p>如需了解更多服务详情，请通过官方渠道联系我们</p>
+                            </div>
+                            <div class="note-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <p>靠谱不是口号，是行动；信任不是偶然，是积累</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 右侧：权威认证和合作伙伴 -->
+                
+    </section>
+
+    <!-- 实时动态区域 -->
+    <section id="realtime" class="realtime-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">实时动态</h2>
+                        <p class="section-subtitle">最新运单进度、仓库操作与客服反馈一目了然</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="realtime-panel">
+                        <div class="realtime-header">
+                            <div class="status-dot"></div>
+                            <span class="status-text">实时刷新中</span>
+                            <span class="last-update" id="realtimeTimestamp">--:--</span>
+                        </div>
+                        <ul class="realtime-list" id="realtimeList">
+                            <li class="realtime-placeholder">数据加载中...</li>
+                        </ul>
+                        <div class="realtime-footnote">
+                            <i class="fas fa-satellite-dish"></i>
+                            <span>系统已接入北斗、GPS、Google 定位系统，实时掌握运单轨迹。</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚区域 -->
+    <footer id="site-footer" class="footer-section">
+        <div class="container">
+            <!-- 专业徽章区域 -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="footer-badges-section">
+                        <div class="footer-badges">
+                            <span class="badge-item">
+                                <i class="fas fa-award"></i>
+                                15年专业经验
+                            </span>
+                            <span class="badge-item">
+                                <i class="fas fa-users"></i>
+                                10000+客户信赖
+                            </span>
+                            <span class="badge-item">
+                                <i class="fas fa-star"></i>
+                                99.8%满意度
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 版权信息 -->
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 顺通国际物流. 保留所有权利.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-social">
+                        <span class="footer-text">专业 · 可靠 · 高效</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- 引入Bootstrap JavaScript文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- 引入自定义JavaScript文件 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
